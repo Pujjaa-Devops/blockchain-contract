@@ -1,0 +1,13 @@
+[package]
+name = "PropertyRegistry"
+version = "1.0.0"
+authors = []
+
+[addresses]
+PropertyRegistry = "0x2d272805c5419fa77e291ce0e024d281321a666333901b41ed66fb195373c36a"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+[dev-dependencies]
